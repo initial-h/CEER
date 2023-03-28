@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ## Running Experiments
 
 ```
-python ceer/main.py
+python main.py
 ```
 - Modify `atari_name_list` in `ceer/arguments.py` for different environments.
 
