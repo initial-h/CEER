@@ -2,20 +2,20 @@
 
 ![overview](https://github.com/initial-h/ceer/blob/main/pic/overview.png)
 
-### Overview
+## Overview
 
 - PyTorch implementation of Conservative Estimation with Experience Replay ([CEER](https://openreview.net/forum?id=SjzFVSJUt8S)). 
 
 - Method is tested on [Sokoban](https://github.com/mpSchrader/gym-sokoban), [Minigrid](https://github.com/Farama-Foundation/Minigrid) and [MinAtar](https://github.com/kenjyoung/MinAtar) environments.
 
-### Installation
+## Installation
 ```
 pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
 pip install -r requirements.txt
 ```
 - My Python version is 3.7.11. CUDA version is 11.4.
 
-### Running Experiments
+## Running Experiments
 
 ```
 python ceer/main.py
@@ -26,7 +26,7 @@ python ceer/main.py
 
 - Other parameters like `sample_method_para # alpha`,`policy_loss_para # lambda` are also in `ceer/arguments.py`.
   
- ### Bibtex
+ ## Bibtex
 ```
 @inproceedings{
 zhang2023replay,
@@ -38,7 +38,7 @@ url={https://openreview.net/forum?id=SjzFVSJUt8S}
 }
 ```
  
-### Acknowledgments
+## Acknowledgments
 
 - Awesome Environments used for testing:
 
