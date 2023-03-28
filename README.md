@@ -31,7 +31,7 @@ python ceer/main.py
 @inproceedings{
 zhang2023replay,
 title={Replay Memory as An Empirical {MDP}: Combining Conservative Estimation with Experience Replay},
-author={Hongming Zhang and Chenjun Xiao and Han Wang and Jun Jin and bo xu and Martin M{\"u}ller},
+author={Hongming Zhang and Chenjun Xiao and Han Wang and Jun Jin and Bo Xu and Martin M{\"u}ller},
 booktitle={The Eleventh International Conference on Learning Representations },
 year={2023},
 url={https://openreview.net/forum?id=SjzFVSJUt8S}
