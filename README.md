@@ -1,6 +1,6 @@
 ## Replay Memory as An Empirical MDP: Combining Conservative Estimation with Experience Replay
 
-![overview](D:/wakaka/2022/structured_memory/ICLR2023/github_version/ceer/pic/overview.svg)
+![overview](D:/wakaka/2022/structured_memory/ICLR2023/github_version/ceer/pic/overview.png)
 
 ### Overview
 
