@@ -1,7 +1,6 @@
 ## Replay Memory as An Empirical MDP: Combining Conservative Estimation with Experience Replay
 
-
-![overview](ceer/pic/overview.png)
+![overview](https://github.com/initial-h/ceer/blob/main/pic/overview.png)
 
 ### Overview
 
