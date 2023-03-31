@@ -38,7 +38,7 @@ url={https://openreview.net/forum?id=SjzFVSJUt8S}
 }
 ```
  
-## Acknowledgments
+## Acknowledgements
 
 - Awesome Environments used for testing:
 
