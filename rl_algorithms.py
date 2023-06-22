@@ -78,6 +78,8 @@ class TD():
             masked_q = all_q_values + not_exist_action_value
             # print(masked_q)
             log_soft_q = F.log_softmax(input=masked_q, dim=1)
+            min_real = torch.finfo(log_soft_q.dtype).min
+            log_soft_q = torch.clamp(log_soft_q, min=min_real)
             buffer_policy = F.softmax(all_target_q_t/self.args_dict.tau,dim=1)
             soft_q_loss = - torch.mean(torch.sum(buffer_policy * log_soft_q,dim=1)) * policy_loss_para
             self.update(q_values, target_q,soft_q_loss,value_loss=True,policy_loss=True)
